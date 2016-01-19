@@ -58,11 +58,11 @@
 		4A8891CC1C4EEBCE007FDDD2 /* MCMS */ = {
 			isa = PBXGroup;
 			children = (
+				4A8891D61C4EEBCE007FDDD2 /* Main.storyboard */,
 				4A8891D01C4EEBCE007FDDD2 /* AppDelegate.h */,
 				4A8891D11C4EEBCE007FDDD2 /* AppDelegate.m */,
 				4A8891D31C4EEBCE007FDDD2 /* ViewController.h */,
 				4A8891D41C4EEBCE007FDDD2 /* ViewController.m */,
-				4A8891D61C4EEBCE007FDDD2 /* Main.storyboard */,
 				4A8891D91C4EEBCE007FDDD2 /* Assets.xcassets */,
 				4A8891DB1C4EEBCE007FDDD2 /* LaunchScreen.storyboard */,
 				4A8891DE1C4EEBCE007FDDD2 /* Info.plist */,
