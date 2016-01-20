@@ -13,6 +13,9 @@
 		4A8891D81C4EEBCE007FDDD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8891D61C4EEBCE007FDDD2 /* Main.storyboard */; };
 		4A8891DA1C4EEBCE007FDDD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8891D91C4EEBCE007FDDD2 /* Assets.xcassets */; };
 		4A8891DD1C4EEBCE007FDDD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8891DB1C4EEBCE007FDDD2 /* LaunchScreen.storyboard */; };
+		4A8891E61C4EECD2007FDDD2 /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8891E51C4EECD2007FDDD2 /* MagicalCreature.m */; };
+		4A8891E91C4F02FB007FDDD2 /* CreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8891E81C4F02FB007FDDD2 /* CreatureViewController.m */; };
+		4A8891EC1C4F26ED007FDDD2 /* battleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8891EB1C4F26ED007FDDD2 /* battleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		4A8891D91C4EEBCE007FDDD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A8891DC1C4EEBCE007FDDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A8891DE1C4EEBCE007FDDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A8891E41C4EECD2007FDDD2 /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
+		4A8891E51C4EECD2007FDDD2 /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
+		4A8891E71C4F02FB007FDDD2 /* CreatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatureViewController.h; sourceTree = "<group>"; };
+		4A8891E81C4F02FB007FDDD2 /* CreatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatureViewController.m; sourceTree = "<group>"; };
+		4A8891EA1C4F26ED007FDDD2 /* battleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = battleViewController.h; sourceTree = "<group>"; };
+		4A8891EB1C4F26ED007FDDD2 /* battleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = battleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +68,14 @@
 			isa = PBXGroup;
 			children = (
 				4A8891D61C4EEBCE007FDDD2 /* Main.storyboard */,
-				4A8891D01C4EEBCE007FDDD2 /* AppDelegate.h */,
-				4A8891D11C4EEBCE007FDDD2 /* AppDelegate.m */,
 				4A8891D31C4EEBCE007FDDD2 /* ViewController.h */,
 				4A8891D41C4EEBCE007FDDD2 /* ViewController.m */,
+				4A8891E41C4EECD2007FDDD2 /* MagicalCreature.h */,
+				4A8891E51C4EECD2007FDDD2 /* MagicalCreature.m */,
+				4A8891E71C4F02FB007FDDD2 /* CreatureViewController.h */,
+				4A8891E81C4F02FB007FDDD2 /* CreatureViewController.m */,
+				4A8891EA1C4F26ED007FDDD2 /* battleViewController.h */,
+				4A8891EB1C4F26ED007FDDD2 /* battleViewController.m */,
 				4A8891D91C4EEBCE007FDDD2 /* Assets.xcassets */,
 				4A8891DB1C4EEBCE007FDDD2 /* LaunchScreen.storyboard */,
 				4A8891DE1C4EEBCE007FDDD2 /* Info.plist */,
@@ -74,6 +87,8 @@
 		4A8891CD1C4EEBCE007FDDD2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4A8891D01C4EEBCE007FDDD2 /* AppDelegate.h */,
+				4A8891D11C4EEBCE007FDDD2 /* AppDelegate.m */,
 				4A8891CE1C4EEBCE007FDDD2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A8891EC1C4F26ED007FDDD2 /* battleViewController.m in Sources */,
 				4A8891D51C4EEBCE007FDDD2 /* ViewController.m in Sources */,
+				4A8891E61C4EECD2007FDDD2 /* MagicalCreature.m in Sources */,
 				4A8891D21C4EEBCE007FDDD2 /* AppDelegate.m in Sources */,
+				4A8891E91C4F02FB007FDDD2 /* CreatureViewController.m in Sources */,
 				4A8891CF1C4EEBCE007FDDD2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
